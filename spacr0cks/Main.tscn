@@ -1,9 +1,22 @@
-[gd_scene load_steps=2 format=3 uid="uid://8hhcxuijjg5m"]
+[gd_scene format=3 uid="uid://8hhcxuijjg5m"]
 
-[ext_resource type="Texture2D" uid="uid://do30iy301ry41" path="res://icon.svg" id="1_glv2v"]
+[ext_resource type="Texture2D" uid="uid://pd04ux4524ed" path="res://Berghia.jpg" id="1_uu6xs"]
+[ext_resource type="PackedScene" uid="uid://dn6ae2m1viu7h" path="res://robot.tscn" id="2_r0du0"]
 
-[node name="Node2D" type="Node2D"]
+[node name="Node2D" type="Node2D" unique_id=1339194191]
 
-[node name="Icon" type="Sprite2D" parent="."]
+[node name="Berghia" type="Sprite2D" parent="." unique_id=1366598458]
+position = Vector2(567, 312)
+texture = ExtResource("1_uu6xs")
+
+[node name="Robot" parent="." unique_id=484639183 instance=ExtResource("2_r0du0")]
 position = Vector2(128, 177)
-texture = ExtResource("1_glv2v")
+
+[node name="Robot2" parent="." unique_id=188826324 instance=ExtResource("2_r0du0")]
+position = Vector2(450, 163)
+
+[node name="Robot3" parent="." unique_id=1582129499 instance=ExtResource("2_r0du0")]
+position = Vector2(298, 410)
+
+[node name="Robot4" parent="." unique_id=452042094 instance=ExtResource("2_r0du0")]
+position = Vector2(736, 272)

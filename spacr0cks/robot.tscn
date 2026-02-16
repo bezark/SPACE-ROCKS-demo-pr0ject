@@ -1,0 +1,14 @@
+[gd_scene format=3 uid="uid://dn6ae2m1viu7h"]
+
+[ext_resource type="Texture2D" uid="uid://do30iy301ry41" path="res://icon.svg" id="1_3cn6f"]
+
+[node name="Robot" type="Sprite2D" unique_id=484639183]
+z_index = 3
+texture = ExtResource("1_3cn6f")
+
+[node name="ColorRect" type="ColorRect" parent="." unique_id=1929304194]
+offset_left = -26.0
+offset_top = -94.0
+offset_right = 37.0
+offset_bottom = -59.0
+color = Color(0.6039216, 0.38431373, 1, 1)
